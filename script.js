@@ -33,6 +33,21 @@
                     "Available in 3 classic colors"
                 ]
             },
+            {
+                id: 2,
+                title: "Classic Business Suit",
+                category: "men",
+                image: "images/hero2.jpg",
+                description: "Tailored perfection for the modern professional. This suit features a contemporary slim fit with traditional craftsmanship for a sharp, confident look.",
+                price: "ksh 4,000",
+                features: [
+                    "Italian wool blend fabric",
+                    "Slim fit design",
+                    "Fully lined interior",
+                    "Includes matching trousers",
+                    "Available in 3 classic colors"
+                ]
+            },
             // ... (rest of your collection items remain the same)
         ];
 
