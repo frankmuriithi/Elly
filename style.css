@@ -920,11 +920,11 @@
             
             .popup-content {
                 grid-template-columns: 1fr;
-                max-width: 600px;
+                max-width: 250px;
             }
             
             .popup-image {
-                min-height: 400px;
+                min-height: 200px;
                 border-radius: var(--radius) var(--radius) 0 0;
             }
         }
