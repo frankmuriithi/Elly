@@ -34,7 +34,7 @@
                 ]
             },
             {
-                id: 2,
+                id: 3,
                 title: "Classic Business Suit",
                 category: "men",
                 image: "images/hero2.jpg",
