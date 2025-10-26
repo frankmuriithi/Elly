@@ -411,6 +411,8 @@
         .collection-info p {
             color: var(--light-text);
             margin-bottom: 1.5rem;
+            font-size: 1rem;
+
         }
 
         .collection-price {
@@ -419,7 +421,7 @@
             font-size: 1.2rem;
         }
 
-        /* Product Detail Popup */
+        /* Product Detail Popup - Compact Version */
         .product-popup {
             position: fixed;
             top: 0;
@@ -434,7 +436,7 @@
             opacity: 0;
             visibility: hidden;
             transition: var(--transition);
-            padding: 20px;
+            padding: 15px;
         }
 
         .product-popup.active {
@@ -445,9 +447,9 @@
         .popup-content {
             background-color: white;
             border-radius: var(--radius);
-            max-width: 1000px;
+            max-width: 800px; /* Reduced from 1000px */
             width: 100%;
-            max-height: 90vh;
+            max-height: 85vh; /* Reduced from 90vh */
             overflow-y: auto;
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -463,10 +465,10 @@
 
         .popup-close {
             position: absolute;
-            top: 20px;
-            right: 20px;
-            width: 40px;
-            height: 40px;
+            top: 15px; /* Reduced from 20px */
+            right: 15px; /* Reduced from 20px */
+            width: 35px; /* Reduced from 40px */
+            height: 35px; /* Reduced from 40px */
             background-color: var(--primary);
             color: white;
             border-radius: 50%;
@@ -476,6 +478,7 @@
             cursor: pointer;
             z-index: 10;
             transition: var(--transition);
+            font-size: 0.9rem; /* Smaller icon */
         }
 
         .popup-close:hover {
@@ -486,59 +489,68 @@
 
         .popup-image {
             height: 100%;
-            min-height: 500px;
+            min-height: 400px; /* Reduced from 500px */
             background-size: cover;
             background-position: center;
             border-radius: var(--radius) 0 0 var(--radius);
         }
 
         .popup-details {
-            padding: 3rem;
+            padding: 2rem; /* Reduced from 3rem */
             display: flex;
             flex-direction: column;
             justify-content: center;
         }
 
         .popup-details h2 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
+            font-size: 2rem; /* Reduced from 2.5rem */
+            margin-bottom: 0.8rem; /* Reduced from 1rem */
+            line-height: 1.2;
         }
 
         .popup-price {
-            font-size: 1.8rem;
+            font-size: 1.5rem; /* Reduced from 1.8rem */
             color: var(--accent);
             font-weight: 700;
-            margin-bottom: 1.5rem;
+            margin-bottom: 1.2rem; /* Reduced from 1.5rem */
         }
 
         .popup-description {
-            margin-bottom: 2rem;
-            line-height: 1.8;
+            margin-bottom: 1.5rem; /* Reduced from 2rem */
+            line-height: 1.6;
+            font-size: 0.95rem;
         }
 
         .popup-features {
-            margin-bottom: 2.5rem;
+            margin-bottom: 2rem; /* Reduced from 2.5rem */
         }
 
         .popup-features h3 {
-            margin-bottom: 1rem;
-            font-size: 1.2rem;
+            margin-bottom: 0.8rem; /* Reduced from 1rem */
+            font-size: 1.1rem; /* Reduced from 1.2rem */
         }
 
         .popup-features ul {
             list-style: disc;
-            padding-left: 1.5rem;
+            padding-left: 1.2rem; /* Reduced from 1.5rem */
         }
 
         .popup-features li {
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.4rem; /* Reduced from 0.5rem */
+            font-size: 0.9rem;
+            line-height: 1.4;
         }
 
         .popup-btns {
             display: flex;
-            gap: 1rem;
+            gap: 0.8rem; /* Reduced from 1rem */
             flex-wrap: wrap;
         }
+
+            .popup-btns .btn {
+                padding: 12px 24px; /* Reduced from 16px 32px */
+                font-size: 0.85rem;
+            }
 
         /* About Section */
         .about {
@@ -968,67 +980,401 @@
             .section-title {
                 font-size: 2.5rem;
             }
-            
-            .collection-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .stats {
-                grid-template-columns: 1fr;
-            }
-            
-            .popup-details {
-                padding: 2rem;
-            }
-            
-            .popup-details h2 {
-                font-size: 2rem;
-            }
-        }
 
-        @media (max-width: 576px) {
-            .hero h1 {
-                font-size: 2.2rem;
+            /* Mobile-specific styles */
+            @media (max-width: 768px) {
+                .collection-grid {
+                    grid-template-columns: repeat(2, 1fr); /* Two columns on mobile */
+                    gap: 0.8rem; /* Very tight gap */
+                }
+                
+                .collection-item {
+                    transform: translateY(10px); /* Minimal animation */
+                    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+                }
+                
+                .collection-item:hover {
+                    transform: translateY(-5px); /* Reduced hover effect */
+                }
+                
+                .collection-img-container {
+                    height: 160px; /* Much smaller images */
+                }
+                
+                .collection-info {
+                    padding: 0.8rem 0.6rem; /* Minimal padding */
+                }
+                
+                .collection-info h3 {
+                    font-size: 0.85rem; /* Very small title */
+                    margin-bottom: 0.3rem;
+                    line-height: 1.2;
+                    font-weight: 600;
+                }
+                
+                .collection-info p {
+                    font-size: 0.7rem; /* Very small description */
+                    margin-bottom: 0.6rem;
+                    line-height: 1.3;
+                    /* Simple text truncation */
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    line-clamp: 2;
+                    max-height: 2.6em;
+                }
+                
+                .collection-price {
+                    font-size: 0.75rem; /* Very small price */
+                    font-weight: 700;
+                }
+                
+                .collection-overlay {
+                    padding: 0.8rem; /* Minimal overlay padding */
+                }
+                
+                .collection-overlay .btn {
+                    padding: 6px 12px; /* Tiny button */
+                    font-size: 0.7rem;
+                    letter-spacing: 0.5px;
+                }
+                
+                /* Reduce section spacing */
+                .collections {
+                    padding: 60px 0;
+                }
+                
+                .section-title {
+                    font-size: 1.8rem;
+                    margin-bottom: 1.5rem;
+                }
+                
+                .collection-filters {
+                    margin-bottom: 2rem;
+                    gap: 0.5rem;
+                }
+                
+                .filter-btn {
+                    padding: 8px 16px;
+                    font-size: 0.8rem;
+                }
+            }
+
+            /* Extra small devices - Ultra compact */
+            @media (max-width: 480px) {
+                .collection-grid {
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 0.6rem; /* Ultra tight gap */
+                }
+                
+                .collection-img-container {
+                    height: 140px; /* Even smaller images */
+                }
+                
+                .collection-info {
+                    padding: 0.6rem 0.4rem; /* Ultra minimal padding */
+                }
+                
+                .collection-info h3 {
+                    font-size: 0.8rem; /* Ultra small title */
+                }
+                
+                .collection-info p {
+                    font-size: 0.65rem; /* Ultra small description */
+                    margin-bottom: 0.5rem;
+                    -webkit-line-clamp: 2;
+                    line-clamp: 2;
+                    max-height: 2.4em;
+                }
+                
+                .collection-price {
+                    font-size: 0.7rem; /* Ultra small price */
+                }
+                
+                .collection-overlay {
+                    padding: 0.6rem;
+                }
+                
+                .collection-overlay .btn {
+                    padding: 5px 10px;
+                    font-size: 0.65rem;
+                }
+            }
+
+            /* Three columns on larger mobile devices */
+            @media (min-width: 481px) and (max-width: 768px) {
+                .collection-grid {
+                    grid-template-columns: repeat(3, 1fr); /* Three columns on tablet-sized mobile */
+                    gap: 0.8rem;
+                }
+                
+                .collection-img-container {
+                    height: 150px; /* Slightly smaller for 3 columns */
+                }
+                
+                .collection-info h3 {
+                    font-size: 0.8rem;
+                }
+                
+                .collection-info p {
+                    font-size: 0.68rem;
+                    -webkit-line-clamp: 2;
+                    line-clamp: 2;
+                }
+            }
+
+            /* Optional: Four columns on landscape mobile */
+            @media (max-width: 768px) and (orientation: landscape) {
+                .collection-grid {
+                    grid-template-columns: repeat(3, 1fr); /* Three columns in landscape */
+                }
+                
+                .collection-img-container {
+                    height: 120px; /* Shorter images in landscape */
+                }
+            }
+                        /* Mobile Popup Styles */
+            @media (max-width: 992px) {
+                .popup-content {
+                    grid-template-columns: 1fr;
+                    max-width: 600px; /* Smaller on mobile */
+                }
+                
+                .popup-image {
+                    min-height: 300px; /* Reduced from 400px */
+                    border-radius: var(--radius) var(--radius) 0 0;
+                }
+                
+                .popup-details {
+                    padding: 1.5rem; /* Reduced from 2rem */
+                }
+                
+                .popup-details h2 {
+                    font-size: 1.7rem;
+                }
+                
+                .popup-price {
+                    font-size: 1.3rem;
+                }
+                
+                .popup-description {
+                    font-size: 0.9rem;
+                    margin-bottom: 1.2rem;
+                }
+                
+                .popup-features {
+                    margin-bottom: 1.5rem;
+                }
+                
+                .popup-features h3 {
+                    font-size: 1rem;
+                }
+                
+                .popup-features li {
+                    font-size: 0.85rem;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .popup-content {
+                    max-width: 500px;
+                    max-height: 80vh;
+                }
+                
+                .popup-details {
+                    padding: 1.2rem; /* Even smaller padding */
+                }
+                
+                .popup-details h2 {
+                    font-size: 1.5rem;
+                }
+                
+                .popup-price {
+                    font-size: 1.2rem;
+                    margin-bottom: 1rem;
+                }
+                
+                .popup-description {
+                    font-size: 0.85rem;
+                    margin-bottom: 1rem;
+                }
+                
+                .popup-features {
+                    margin-bottom: 1.2rem;
+                }
+                
+                .popup-features h3 {
+                    font-size: 0.95rem;
+                }
+                
+                .popup-features ul {
+                    padding-left: 1rem;
+                }
+                
+                .popup-features li {
+                    font-size: 0.8rem;
+                    margin-bottom: 0.3rem;
+                }
+                
+                .popup-btns {
+                    gap: 0.6rem;
+                }
+                
+                .popup-btns .btn {
+                    padding: 10px 20px;
+                    font-size: 0.8rem;
+                }
+                
+                .popup-close {
+                    top: 10px;
+                    right: 10px;
+                    width: 30px;
+                    height: 30px;
+                    font-size: 0.8rem;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .popup-content {
+                    max-width: 95%;
+                    max-height: 75vh;
+                }
+                
+                .popup-image {
+                    min-height: 250px; /* Very small on mobile */
+                }
+                
+                .popup-details {
+                    padding: 1rem; /* Minimal padding */
+                }
+                
+                .popup-details h2 {
+                    font-size: 1.3rem;
+                    margin-bottom: 0.6rem;
+                }
+                
+                .popup-price {
+                    font-size: 1.1rem;
+                    margin-bottom: 0.8rem;
+                }
+                
+                .popup-description {
+                    font-size: 0.8rem;
+                    margin-bottom: 0.8rem;
+                    line-height: 1.5;
+                }
+                
+                .popup-features {
+                    margin-bottom: 1rem;
+                }
+                
+                .popup-features h3 {
+                    font-size: 0.9rem;
+                    margin-bottom: 0.6rem;
+                }
+                
+                .popup-features ul {
+                    padding-left: 0.8rem;
+                }
+                
+                .popup-features li {
+                    font-size: 0.75rem;
+                    margin-bottom: 0.2rem;
+                }
+                
+                .popup-btns {
+                    flex-direction: column;
+                    gap: 0.5rem;
+                }
+                
+                .popup-btns .btn {
+                    padding: 8px 16px;
+                    font-size: 0.75rem;
+                    text-align: center;
+                    justify-content: center;
+                }
+            }
+
+            /* Ultra Compact Popup Option */
+            @media (max-width: 360px) {
+                .popup-content {
+                    max-height: 70vh;
+                }
+                
+                .popup-image {
+                    min-height: 200px; /* Ultra small image */
+                }
+                
+                .popup-details {
+                    padding: 0.8rem;
+                }
+                
+                .popup-details h2 {
+                    font-size: 1.1rem;
+                }
+                
+                .popup-price {
+                    font-size: 1rem;
+                }
+                
+                .popup-description {
+                    font-size: 0.75rem;
+                }
+                
+                .popup-features h3 {
+                    font-size: 0.85rem;
+                }
+                
+                .popup-features li {
+                    font-size: 0.7rem;
+                }
+            }
+
+            @media (max-width: 576px) {
+                .hero h1 {
+                    font-size: 2.2rem;
+                }
+                
+                .section-title {
+                    font-size: 2rem;
+                }
+                
+                .contact-form {
+                    padding: 2rem;
+                }
+                
+                .popup-btns {
+                    flex-direction: column;
+                }
+            }
+
+            .form-notification {
+                padding: 15px;
+                border-radius: var(--radius);
+                margin-bottom: 1.5rem;
+                text-align: center;
+                font-weight: 500;
+                display: none;
+            }
+
+            .form-success {
+                background-color: #d4edda;
+                color: #155724;
+                border: 1px solid #c3e6cb;
+            }
+
+            .form-error {
+                background-color: #f8d7da;
+                color: #721c24;
+                border: 1px solid #f5c6cb;
+            }
+
+            .form-loading {
+                background-color: #cce7ff;
+                color: #004085;
+                border: 1px solid #b3d7ff;
             }
             
-            .section-title {
-                font-size: 2rem;
-            }
-            
-            .contact-form {
-                padding: 2rem;
-            }
-            
-            .popup-btns {
-                flex-direction: column;
-            }
-        }
-
-        .form-notification {
-            padding: 15px;
-            border-radius: var(--radius);
-            margin-bottom: 1.5rem;
-            text-align: center;
-            font-weight: 500;
-            display: none;
-        }
-
-        .form-success {
-            background-color: #d4edda;
-            color: #155724;
-            border: 1px solid #c3e6cb;
-        }
-
-        .form-error {
-            background-color: #f8d7da;
-            color: #721c24;
-            border: 1px solid #f5c6cb;
-        }
-
-        .form-loading {
-            background-color: #cce7ff;
-            color: #004085;
-            border: 1px solid #b3d7ff;
-        }
-    
         
+        }

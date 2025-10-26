@@ -222,6 +222,9 @@
         });
 
         // Render collection items
+        // In your renderCollectionItems function, update the description rendering:
+
+        // In your renderCollectionItems function:
         function renderCollectionItems(filter = 'all') {
             collectionGrid.innerHTML = '';
             
@@ -234,22 +237,26 @@
                 collectionItem.className = 'collection-item';
                 collectionItem.setAttribute('data-category', item.category);
                 
+                // Ultra short description for mobile
+                const shortDescription = item.description.substring(0, 60) + '...';
+                
                 collectionItem.innerHTML = `
                     <div class="collection-img-container">
                         <img src="${item.image}" alt="${item.title}" class="collection-img">
                         <div class="collection-overlay">
-                            <button class="btn view-details-btn" data-id="${item.id}">View Details <i class="fas fa-arrow-right"></i></button>
+                            <button class="btn view-details-btn" data-id="${item.id}">Details <i class="fas fa-eye"></i></button>
                         </div>
                     </div>
                     <div class="collection-info">
                         <h3>${item.title}</h3>
-                        <p>${item.description.substring(0, 100)}...</p>
+                        <p class="collection-description">${shortDescription}</p>
                         <div class="collection-price">${item.price}</div>
                     </div>
                 `;
                 
                 collectionGrid.appendChild(collectionItem);
             });
+            
             
             // Add event listeners to view details buttons
             document.querySelectorAll('.view-details-btn').forEach(btn => {
