@@ -5,47 +5,42 @@
         const collectionItems = [
             {
                 id: 1,
-                title: "Elegant Evening Gown",
-                category: "women",
-                image: "images/hero4.jpg",
-                description: "A stunning floor-length gown perfect for special occasions. Crafted from premium silk with intricate beadwork and a flattering silhouette that enhances your natural curves.",
-                price: "Ksh 10,000",
+                title: "AFI custom",
+                category: "all",
+                image: "images/shoe1.jpg",
+                description: "Classic AFI custom shoe for work, events, or everyday wear.",
+                price: "Ksh 3,700",
                 features: [
-                    "Made from 100% premium silk",
-                    "Intricate hand-beaded detailing",
-                    "Flattering A-line silhouette",
-                    "Available in 5 elegant colors",
-                    "Dry clean only"
+                    "Confortable fit",
+                    "Timeless design",
+                    "Size 39-45 available",
+                    
                 ]
             },
             {
                 id: 2,
-                title: "Classic Business Suit",
-                category: "men",
-                image: "images/hero3.jpg",
-                description: "Tailored perfection for the modern professional. This suit features a contemporary slim fit with traditional craftsmanship for a sharp, confident look.",
-                price: "ksh 2,000",
+                title: "NB 1906",
+                category: "all",
+                image: "images/shoe2.jpg",
+                description: "Classic NB 1906 shoes, brings sophistication and confidence to every step.",
+                price: "ksh 4,000",
                 features: [
-                    "Italian wool blend fabric",
-                    "Slim fit design",
-                    "Fully lined interior",
-                    "Includes matching trousers",
-                    "Available in 3 classic colors"
+                    "Easy to clean",
+                    "Non-slip sole",
+                    "Size 38-45 available",
                 ]
             },
             {
                 id: 3,
-                title: "Classic Business Suit",
-                category: "men",
-                image: "images/hero2.jpg",
-                description: "Tailored perfection for the modern professional. This suit features a contemporary slim fit with traditional craftsmanship for a sharp, confident look.",
-                price: "ksh 4,000",
+                title: "Jordan 4Nike SB",
+                category: "all",
+                image: "images/shoe3.jpg",
+                description: "Premium Jordan 4Nike SB sneakers for ultimate style and performance.",
+                price: "ksh 3,800",
                 features: [
-                    "Italian wool blend fabric",
-                    "Slim fit design",
-                    "Fully lined interior",
-                    "Includes matching trousers",
-                    "Available in 3 classic colors"
+                    "Available in multiple colors",
+                    "Breathable interior",
+                    "Size 38-45 available",
                 ]
             },
             // ... (rest of your collection items remain the same)
