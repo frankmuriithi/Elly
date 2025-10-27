@@ -11,7 +11,7 @@
                 description: "Classic AFI custom shoe for work, events, or everyday wear.",
                 price: "Ksh 3,700",
                 features: [
-                    "Confortable fit",
+                    "Comfortable fit",
                     "Timeless design",
                     "Size 39-45 available",
                     
