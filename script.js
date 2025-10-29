@@ -2925,12 +2925,7 @@
         document.addEventListener('DOMContentLoaded', () => {
             renderCollectionItems();
         });
-        // Loading screen
-        window.addEventListener('load', () => {
-            setTimeout(() => {
-                loader.classList.add('hidden');
-            }, 1500);
-        });
+     
 
         // Header scroll effect
         window.addEventListener('scroll', () => {
