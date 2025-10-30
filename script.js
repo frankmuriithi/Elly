@@ -4,6 +4,76 @@
         // Sample collection data with additional details
         const collectionItems = [
             {
+                id: 223,
+                title: "Leather sandals",
+                category: "women",
+                image: "images/223.jpg",
+                description: "Classic Leather sandals for work, events, or everyday wear.",
+                price: "Ksh 2,000",
+                features: [
+                    "Comfortable fit",
+                    "Timeless design",
+                    "Size 36-41 available",
+                    
+                ]
+            },
+            {
+                id: 224,
+                title: "Leather sandals",
+                category: "women",
+                image: "images/224.jpg",
+                description: "Classic Leather sandals for work, events, or everyday wear.",
+                price: "Ksh 2,000",
+                features: [
+                    "Comfortable fit",
+                    "Timeless design",
+                    "Size 36-41 available",
+                    
+                ]
+            },
+            {
+                id: 225,
+                title: "NB 9060 Oak burgundy",
+                category: "all",
+                image: "images/225.jpg",
+                description: "Classic NB 9060 Oak burgundy for work, events, or everyday wear.",
+                price: "Ksh 4,000",
+                features: [
+                    "Comfortable fit",
+                    "Timeless design",
+                    "Size 36-45 available",
+                    
+                ]
+            },
+            {
+                id: 226,
+                title: "Heels",
+                category: "women",
+                image: "images/226.jpg",
+                description: "Classic Heels for work, events, or everyday wear.",
+                price: "Ksh 3,000",
+                features: [
+                    "Comfortable fit",
+                    "Timeless design",
+                    "Size 37-42 available",
+                    
+                ]
+            },
+            {
+                id: 227,
+                title: "Heels",
+                category: "women",
+                image: "images/227.jpg",
+                description: "Classic Heels for work, events, or everyday wear.",
+                price: "Ksh 3,000",
+                features: [
+                    "Comfortable fit",
+                    "Timeless design",
+                    "Size 37-42 available",
+                    
+                ]
+            },
+            {
                 id: 1,
                 title: "AFI custom",
                 category: "all",
@@ -175,15 +245,15 @@
             },
             {
                 id: 14,
-                title: "Timberlands boots",
+                title: "Lacoste casuals",
                 category: "men",
                 image: "images/shoe14.jpg",
-                description: "Premium Timberlands boots for ultimate style and performance.",
+                description: "Premium Lacoste casuals for ultimate style and performance.",
                 price: "ksh 3,500",
                 features: [
                     "Available in multiple colors",
                     "Breathable interior",
-                    "Size 40-45 available",
+                    "Size 39-45 available",
                 ]
             },
             {
@@ -601,11 +671,11 @@
             },
             {
                 id: 47,
-                title: "Turkish adidas tracksuits",
+                title: "Nike Tracksuits",
                 category: "all",
                 image: "images/47.jpg",
-                description: "Premium Turkish adidas tracksuits for ultimate style and performance.",
-                price: "ksh 5,200",
+                description: "Premium Nike Tracksuits for ultimate style and performance.",
+                price: "ksh 3,000",
                 features: [
                     "Available in multiple colors",
                     "Heavy cotton",
@@ -794,18 +864,7 @@
                     "Durable material",
                 ]
             },
-            {
-                id: 63,
-                title: "Emily Gucci sling",
-                category: "women",
-                image: "images/63.jpg",
-                description: "Premium Emily Gucci sling for ultimate style and performance.",
-                price: "ksh 2,300",
-                features: [
-                    "Available in multiple colors",
-                    "Durable material",
-                ]
-            },
+        
             {
                 id: 64,
                 title: "Casual boots",
@@ -1183,19 +1242,7 @@
                     "Size 37-47 available",
                 ]
             },
-            {
-                id: 93,
-                title: "Sequin casuals",
-                category: "all",
-                image: "images/93.jpg",
-                description: "Premium Sequin casuals for ultimate style and performance.",
-                price: "ksh 3,800",
-                features: [
-                    "Available in multiple colors",
-                    "Breathable interior",
-                    "Size 39-45 available",
-                ]
-            },
+            
             {
                 id: 94,
                 title: "White Knit crew neck sweaters",
@@ -1667,11 +1714,11 @@
             },
              {
                 id: 131,
-                title: "Tommy shoes",
+                title: "Ladies Flats",
                 category: "all",
                 image: "images/131.jpg",
-                description: "Premium Tommy shoes for ultimate style and performance.",
-                price: "ksh 2,500",
+                description: "Premium Ladies Flats for ultimate style and performance.",
+                price: "ksh 2,000",
                 features: [
                     "Available in multiple colors",
                     "Breathable interior",
@@ -1732,11 +1779,11 @@
             },
              {
                 id: 136,
-                title: "Tommy shoes",
+                title: "Ladies Flats",
                 category: "all",
                 image: "images/136.jpg",
-                description: "Premium Tommy shoes for ultimate style and performance.",
-                price: "ksh 2,500",
+                description: "Premium Ladies Flats for ultimate style and performance.",
+                price: "ksh 2,000",
                 features: [
                     "Available in multiple colors",
                     "Breathable interior",
@@ -1758,11 +1805,11 @@
             },
              {
                 id: 138,
-                title: "Tommy shoes",
+                title: "Ladies Flats",
                 category: "all",
                 image: "images/138.jpg",
-                description: "Premium Tommy shoes for ultimate style and performance.",
-                price: "ksh 2,500",
+                description: "Premium Ladies Flats for ultimate style and performance.",
+                price: "ksh 2,000",
                 features: [
                     "Available in multiple colors",
                     "Breathable interior",
@@ -1771,11 +1818,11 @@
             },
              {
                 id: 139,
-                title: "Tommy shoes",
+                title: "Ladies Flats",
                 category: "all",
                 image: "images/139.jpg",
-                description: "Premium Tommy shoes for ultimate style and performance.",
-                price: "ksh 2,500",
+                description: "Premium Ladies Flats for ultimate style and performance.",
+                price: "ksh 2,000",
                 features: [
                     "Available in multiple colors",
                     "Breathable interior",
@@ -2048,14 +2095,14 @@
             },
              {
                 id: 162,
-                title: "Buckle block heels",
+                title: "Block heels sandals",
                 category: "women",
                 image: "images/162.jpg",
-                description: "Premium Buckle block heels for ultimate style and performance.",
-                price: "ksh 2,000",
+                description: "Premium Block heels sandals for ultimate style and performance.",
+                price: "ksh 2,800",
                 features: [
                     "Available in multiple colors",
-                    "Size 36-43 available",
+                    "Size 36-42 available",
                 ]
             },
              {
@@ -2084,26 +2131,26 @@
             },
              {
                 id: 165,
-                title: "Buckle block heels",
+                title: "Block heels sandals",
                 category: "women",
                 image: "images/165.jpg",
-                description: "Premium Buckle block heels for ultimate style and performance.",
-                price: "ksh 2,000",
+                description: "Premium Block heels sandals for ultimate style and performance.",
+                price: "ksh 2,800",
                 features: [
                     "Available in multiple colors",
-                    "Size 36-43 available",
+                    "Size 36-46 available",
                 ]
             },
              {
                 id: 166,
-                title: "Buckle block heels",
+                title: "Block heels sandals",
                 category: "women",
                 image: "images/166.jpg",
-                description: "Premium Buckle block heels for ultimate style and performance.",
-                price: "ksh 2,000",
+                description: "Premium Block heels sandals for ultimate style and performance.",
+                price: "ksh 2,800",
                 features: [
                     "Available in multiple colors",
-                    "Size 36-43 available",
+                    "Size 36-42 available",
                 ]
             },
              {
@@ -2132,14 +2179,14 @@
             },
              {
                 id: 169,
-                title: "Buckle block heels",
+                title: "Block heels sandals",
                 category: "women",
                 image: "images/169.jpg",
-                description: "Premium Buckle block heels for ultimate style and performance.",
-                price: "ksh 2,000",
+                description: "Premium Block heels sandals for ultimate style and performance.",
+                price: "ksh 2,800",
                 features: [
                     "Available in multiple colors",
-                    "Size 36-43 available",
+                    "Size 36-42 available",
                 ]
             },
              {
@@ -2192,11 +2239,11 @@
             },
              {
                 id: 174,
-                title: "New printed brogues",
+                title: "Jedan",
                 category: "all",
                 image: "images/174.jpg",
-                description: "Premium New printed brogues for ultimate style and performance.",
-                price: "ksh 2,050",
+                description: "Premium Jedan for ultimate style and performance.",
+                price: "ksh 2,000",
                 features: [
                     "Available in multiple colors",
                     "Size 26-43 available",
@@ -2204,13 +2251,14 @@
             },
              {
                 id: 175,
-                title: "New printed brogues",
+                title: "Jedan",
                 category: "all",
                 image: "images/175.jpg",
-                description: "Premium New printed brogues for ultimate style and performance.",
-                price: "ksh 2,050",
+                description: "Premium Jedan for ultimate style and performance.",
+                price: "ksh 2,000",
                 features: [
                     "Available in multiple colors",
+                    "Size 26 - 43 available"
                    
                 ]
             },
@@ -2240,49 +2288,53 @@
             },
              {
                 id: 178,
-                title: "New printed brogues",
+                title: "Jedan",
                 category: "all",
                 image: "images/178.jpg",
-                description: "Premium New printed brogues for ultimate style and performance.",
-                price: "ksh 2,050",
+                description: "Premium Jedan for ultimate style and performance.",
+                price: "ksh 2,000",
                 features: [
                     "Available in multiple colors",
+                    "Size 26 - 43 available"
                    
                 ]
             },
              {
                 id: 179,
-                title: "New printed brogues",
+                title: "Jedan",
                 category: "all",
                 image: "images/179.jpg",
-                description: "Premium New printed brogues for ultimate style and performance.",
-                price: "ksh 2,050",
+                description: "Premium Jedan for ultimate style and performance.",
+                price: "ksh 2,000",
                 features: [
                     "Available in multiple colors",
+                    "Size 26 - 43 available"
                     
                 ]
             },
              {
                 id: 180,
-                title: "New printed brogues",
+                title: "Jedan",
                 category: "all",
                 image: "images/180.jpg",
-                description: "Premium New printed brogues for ultimate style and performance.",
-                price: "ksh 2,050",
+                description: "Premium Jedan for ultimate style and performance.",
+                price: "ksh 2,000",
                 features: [
                     "Available in multiple colors",
+                    "Size 26 - 43 available"
                    
                 ]
             },
              {
                 id: 181,
-                title: "New printed brogues",
+                title: "Jedan",
                 category: "all",
                 image: "images/181.jpg",
-                description: "Premium New printed brogues for ultimate style and performance.",
-                price: "ksh 2,050",
+                description: "Premium Jedan for ultimate style and performance.",
+                price: "ksh 2,000",
                 features: [
                     "Available in multiple colors",
+                    "Size 26 - 43 available"
                    
                 ]
             },
