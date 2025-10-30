@@ -771,7 +771,7 @@
             {
                 id: 55,
                 title: "Emily Gucci sling",
-                category: "women",
+                category: "accessories",
                 image: "images/55.jpg",
                 description: "Premium Emily Gucci sling for ultimate style and performance.",
                 price: "ksh 2,300",
@@ -783,7 +783,7 @@
             {
                 id: 56,
                 title: "Emily Gucci sling",
-                category: "women",
+                category: "accessories",
                 image: "images/56.jpg",
                 description: "Premium Emily Gucci sling for ultimate style and performance.",
                 price: "ksh 2,300",
@@ -795,7 +795,7 @@
             {
                 id: 57,
                 title: "Emily Gucci sling",
-                category: "women",
+                category: "accessories",
                 image: "images/57.jpg",
                 description: "Premium Emily Gucci sling for ultimate style and performance.",
                 price: "ksh 2,300",
@@ -807,7 +807,7 @@
             {
                 id: 58,
                 title: "Emily Gucci sling",
-                category: "women",
+                category: "accessories",
                 image: "images/58.jpg",
                 description: "Premium Emily Gucci sling for ultimate style and performance.",
                 price: "ksh 2,300",
@@ -819,7 +819,7 @@
             {
                 id: 59,
                 title: "Emily Gucci sling",
-                category: "women",
+                category: "accessories",
                 image: "images/59.jpg",
                 description: "Premium Emily Gucci sling for ultimate style and performance.",
                 price: "ksh 2,300",
@@ -831,7 +831,7 @@
             {
                 id: 60,
                 title: "Emily Gucci sling",
-                category: "women",
+                category: "accessories",
                 image: "images/60.jpg",
                 description: "Premium Emily Gucci sling for ultimate style and performance.",
                 price: "ksh 2,300",
@@ -843,7 +843,7 @@
             {
                 id: 61,
                 title: "Emily Gucci sling",
-                category: "women",
+                category: "accessories",
                 image: "images/61.jpg",
                 description: "Premium Emily Gucci sling for ultimate style and performance.",
                 price: "ksh 2,300",
@@ -855,7 +855,7 @@
             {
                 id: 62,
                 title: "Emily Gucci sling",
-                category: "women",
+                category: "accessories",
                 image: "images/62.jpg",
                 description: "Premium Emily Gucci sling for ultimate style and performance.",
                 price: "ksh 2,300",
@@ -1311,7 +1311,7 @@
             {
                 id: 99,
                 title: "Doll totes",
-                category: "women",
+                category: "accessories",
                 image: "images/99.jpg",
                 description: "Premium Doll totes for ultimate style and performance.",
                 price: "ksh 2,200",
@@ -1325,7 +1325,7 @@
             {
                 id: 100,
                 title: "Doll totes",
-                category: "women",
+                category: "accessories",
                 image: "images/100.jpg",
                 description: "Premium Doll totes for ultimate style and performance.",
                 price: "ksh 2,200",
@@ -1338,7 +1338,7 @@
             {
                 id: 101,
                 title: "Doll totes",
-                category: "women",
+                category: "accessories",
                 image: "images/101.jpg",
                 description: "Premium Doll totes for ultimate style and performance.",
                 price: "ksh 2,200",
@@ -1351,7 +1351,7 @@
             {
                 id: 102,
                 title: "Doll totes",
-                category: "women",
+                category: "accessories",
                 image: "images/102.jpg",
                 description: "Premium Doll totes for ultimate style and performance.",
                 price: "ksh 2,200",
