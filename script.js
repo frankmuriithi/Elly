@@ -3,6 +3,62 @@
 
         // Sample collection data with additional details
         const collectionItems = [
+             {
+                id: 228,
+                title: "Timberland exclusive officials",
+                category: "men",
+                image: "images/228.jpg",
+                description: "Classic Timberland exclusive officials for work, events, or everyday wear.",
+                price: "Ksh 3,000",
+                features: [
+                    "Comfortable fit",
+                    "Timeless design",
+                    "Size 40-45 available",
+                    
+                ]
+            },
+             {
+                id: 229,
+                title: "Timberland exclusive officials",
+                category: "men",
+                image: "images/229.jpg",
+                description: "Classic Timberland exclusive officials for work, events, or everyday wear.",
+                price: "Ksh 3,000",
+                features: [
+                    "Comfortable fit",
+                    "Timeless design",
+                    "Size 40-45 available",
+                    
+                ]
+            },
+             {
+                id: 230,
+                title: "Timberland exclusive officials",
+                category: "men",
+                image: "images/230.jpg",
+                description: "Classic Timberland exclusive officials for work, events, or everyday wear.",
+                price: "Ksh 3,000",
+                features: [
+                    "Comfortable fit",
+                    "Timeless design",
+                    "Size 40-45 available",
+                    
+                ]
+            },
+             {
+                id: 231,
+                title: "Timberland exclusive officials",
+                category: "men",
+                image: "images/231.jpg",
+                description: "Classic Timberland exclusive officials for work, events, or everyday wear.",
+                price: "Ksh 3,000",
+                features: [
+                    "Comfortable fit",
+                    "Timeless design",
+                    "Size 40-45 available",
+                    
+                ]
+            },
             {
                 id: 223,
                 title: "Leather sandals",
@@ -3257,6 +3313,53 @@
                 ripple.style.height = '100%';
                 ripple.style.top = '0';
                 ripple.style.left = '0';
+                
+                this.appendChild(ripple);
+                
+                // Remove ripple after animation
+                setTimeout(() => {
+                    ripple.remove();
+                }, 600);
+            });
+            
+            // Add CSS for ripple animation
+            const style = document.createElement('style');
+            style.textContent = `
+                @keyframes ripple {
+                    to {
+                        transform: scale(2.5);
+                        opacity: 0;
+                    }
+                }
+            `;
+            document.head.appendChild(style);
+        });
+
+         // Add interactive effects to call button
+        document.addEventListener('DOMContentLoaded', function() {
+            const callBtn = document.querySelector('.call-btn');
+            const callBadge = document.querySelector('.call-badge');
+            
+            // Add click animation
+            callBtn.addEventListener('click', function(e) {
+                // Remove notification badge after first click
+                if(callBadge) {
+                    callBadge.style.display = 'none';
+                }
+                
+                // Add ripple effect
+                const ripple = document.createElement('span');
+                ripple.classList.add('ripple-effect');
+                ripple.style.position = 'absolute';
+                ripple.style.borderRadius = '50%';
+                ripple.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
+                ripple.style.transform = 'scale(0)';
+                ripple.style.animation = 'ripple 0.6s linear';
+                ripple.style.width = '100%';
+                ripple.style.height = '100%';
+                ripple.style.top = '0';
+                ripple.style.left = '0';
+                ripple.style.zIndex = '1';
                 
                 this.appendChild(ripple);
                 
