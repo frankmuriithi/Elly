@@ -3359,7 +3359,7 @@
                 ripple.style.height = '100%';
                 ripple.style.top = '0';
                 ripple.style.left = '0';
-                ripple.style.zIndex = '1';
+                ripple.style.zIndex = '0';
                 
                 this.appendChild(ripple);
                 
