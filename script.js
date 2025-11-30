@@ -414,20 +414,6 @@
                 ]
             },
              {
-                id: 228,
-                title: "Timberland exclusive officials",
-                category: "men",
-                image: "images/262.jpg",
-                description: "Classic Timberland exclusive officials for work, events, or everyday wear.",
-                price: "Ksh 3,000",
-                features: [
-                    "Comfortable fit",
-                    "Timeless design",
-                    "Size 40-45 available",
-                    
-                ]
-            },
-             {
                 id: 229,
                 title: "Timberland exclusive officials",
                 category: "men",
