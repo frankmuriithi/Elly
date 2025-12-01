@@ -9,7 +9,7 @@
                 category: "all",
                 image: "images/232.jpg",
                 description: "Classic Benbu sporty for work, events, or everyday wear.",
-                price: "Ksh 1,600",
+                price: "Ksh 2,600",
                 features: [
                     "Comfortable fit",
                     "Timeless design",
@@ -23,7 +23,7 @@
                 category: "all",
                 image: "images/233.jpg",
                 description: "Classic Benbu sporty for work, events, or everyday wear.",
-                price: "Ksh 1,600",
+                price: "Ksh 2,600",
                 features: [
                     "Comfortable fit",
                     "Timeless design",
@@ -37,7 +37,7 @@
                 category: "all",
                 image: "images/234.jpg",
                 description: "Classic Benbu sporty for work, events, or everyday wear.",
-                price: "Ksh 1,600",
+                price: "Ksh 2,600",
                 features: [
                     "Comfortable fit",
                     "Timeless design",
@@ -51,7 +51,7 @@
                 category: "all",
                 image: "images/235.jpg",
                 description: "Classic Benbu sporty for work, events, or everyday wear.",
-                price: "Ksh 1,600",
+                price: "Ksh 2,600",
                 features: [
                     "Comfortable fit",
                     "Timeless design",
@@ -65,7 +65,7 @@
                 category: "men",
                 image: "images/236.jpg",
                 description: "Classic Hermes Men sandals for work, events, or everyday wear.",
-                price: "Ksh 1,500",
+                price: "Ksh 2,500",
                 features: [
                     "Comfortable fit",
                     "Timeless design",
@@ -79,7 +79,7 @@
                 category: "men",
                 image: "images/237.jpg",
                 description: "Classic Hermes Men sandals for work, events, or everyday wear.",
-                price: "Ksh 1,500",
+                price: "Ksh 2,500",
                 features: [
                     "Comfortable fit",
                     "Timeless design",
@@ -93,7 +93,7 @@
                 category: "men",
                 image: "images/238.jpg",
                 description: "Classic Hermes Men sandals for work, events, or everyday wear.",
-                price: "Ksh 1,500",
+                price: "Ksh 2,500",
                 features: [
                     "Comfortable fit",
                     "Timeless design",
@@ -107,7 +107,7 @@
                 category: "men",
                 image: "images/239.jpg",
                 description: "ClassicHermes Men sandals for work, events, or everyday wear.",
-                price: "Ksh 1,500",
+                price: "Ksh 2,500",
                 features: [
                     "Comfortable fit",
                     "Timeless design",
@@ -121,7 +121,7 @@
                 category: "women",
                 image: "images/240.jpg",
                 description: "Classic Benbu sporty for work, events, or everyday wear.",
-                price: "Ksh 1,600",
+                price: "Ksh 2,600",
                 features: [
                     "Comfortable fit",
                     "Timeless design",
@@ -135,7 +135,7 @@
                 category: "women",
                 image: "images/241.jpg",
                 description: "Classic Benbu sporty for work, events, or everyday wear.",
-                price: "Ksh 1,600",
+                price: "Ksh 2,600",
                 features: [
                     "Comfortable fit",
                     "Timeless design",
@@ -149,7 +149,7 @@
                 category: "all",
                 image: "images/242.jpg",
                 description: "Classic Nike jordan 3 craft, brings sophistication and confidence to every step.",
-                price: "ksh 2,800",
+                price: "ksh 3,800",
                 features: [
                     "Easy to clean",
                     "Non-slip sole",
@@ -162,7 +162,7 @@
                 category: "all",
                 image: "images/243.jpg",
                 description: "Premium Nike jordan 3 craft for ultimate style and performance.",
-                price: "ksh 2,800",
+                price: "ksh 3,800",
                 features: [
                     "Available in multiple colors",
                     "Breathable interior",
@@ -175,7 +175,7 @@
                 category: "all",
                 image: "images/244.jpg",
                 description: "Premium Nike jordan 3 craft for ultimate style and performance.",
-                price: "ksh 2,800",
+                price: "ksh 3,800",
                 features: [
                     "Available in multiple colors",
                     "Breathable interior",
@@ -188,7 +188,7 @@
                 category: "all",
                 image: "images/245.jpg",
                 description: "Premium Nike jordan 3 craft for ultimate style and performance.",
-                price: "ksh 2,800",
+                price: "ksh 3,800",
                 features: [
                     "Available in multiple colors",
                     "Breathable interior",
@@ -201,7 +201,7 @@
                 category: "all",
                 image: "images/246.jpg",
                 description: "Premium Sb dunk maroon whhite for ultimate style and performance.",
-                price: "ksh 2,500",
+                price: "ksh 3,500",
                 features: [
                     "Available in multiple colors",
                     "Breathable interior",
@@ -214,7 +214,7 @@
                 category: "all",
                 image: "images/247.jpg",
                 description: "Classic Sb dunk maroon whhite for work, events, or everyday wear.",
-                price: "Ksh 2,500",
+                price: "Ksh 3,500",
                 features: [
                     "Comfortable fit",
                     "Timeless design",
@@ -228,7 +228,7 @@
                 category: "all",
                 image: "images/248.jpg",
                 description: "Classic Nike jordan 3 retro for work, events, or everyday wear.",
-                price: "Ksh 2,800",
+                price: "Ksh 3,800",
                 features: [
                     "Comfortable fit",
                     "Timeless design",
@@ -242,7 +242,7 @@
                 category: "all",
                 image: "images/249.jpg",
                 description: "Classic Sb dunk maroon whhite for work, events, or everyday wear.",
-                price: "Ksh 2,500",
+                price: "Ksh 3,500",
                 features: [
                     "Comfortable fit",
                     "Timeless design",
@@ -256,7 +256,7 @@
                 category: "all",
                 image: "images/250.jpg",
                 description: "Classic Sb dunk maroon whhite for work, events, or everyday wear.",
-                price: "Ksh 2,500",
+                price: "Ksh 3,500",
                 features: [
                     "Comfortable fit",
                     "Timeless design",
@@ -270,7 +270,7 @@
                 category: "all",
                 image: "images/251.jpg",
                 description: "Classic Nike jordan 3 retro for work, events, or everyday wear.",
-                price: "Ksh 2,800",
+                price: "Ksh 3,800",
                 features: [
                     "Comfortable fit",
                     "Timeless design",
@@ -284,7 +284,7 @@
                 category: "all",
                 image: "images/252.jpg",
                 description: "Classic Nike jordan 3 craft for work, events, or everyday wear.",
-                price: "Ksh 2,800",
+                price: "Ksh 3,800",
                 features: [
                     "Comfortable fit",
                     "Timeless design",
@@ -298,7 +298,7 @@
                 category: "all",
                 image: "images/253.jpg",
                 description: "Classic Nike jordan 3 retro for work, events, or everyday wear.",
-                price: "Ksh 2,800",
+                price: "Ksh 3,800",
                 features: [
                     "Comfortable fit",
                     "Timeless design",
@@ -312,7 +312,7 @@
                 category: "all",
                 image: "images/254.jpg",
                 description: "Classic Nike jordan 3 retro for work, events, or everyday wear.",
-                price: "Ksh 2,800",
+                price: "Ksh 3,800",
                 features: [
                     "Comfortable fit",
                     "Timeless design",
@@ -326,7 +326,7 @@
                 category: "all",
                 image: "images/255.jpg",
                 description: "Classic Nike jordan 3 retro for work, events, or everyday wear.",
-                price: "Ksh 2,800",
+                price: "Ksh 3,800",
                 features: [
                     "Comfortable fit",
                     "Timeless design",
@@ -340,7 +340,7 @@
                 category: "all",
                 image: "images/256.jpg",
                 description: "Classic New balance 530 for work, events, or everyday wear.",
-                price: "Ksh 2,600",
+                price: "Ksh 3,600",
                 features: [
                     "Comfortable fit",
                     "Timeless design",
@@ -354,7 +354,7 @@
                 category: "all",
                 image: "images/257.jpg",
                 description: "Classic Nike SB Dunk Low 'Strange love', brings sophistication and confidence to every step.",
-                price: "ksh 3,000",
+                price: "ksh 3,700",
                 features: [
                     "Easy to clean",
                     "Non-slip sole",
@@ -367,7 +367,7 @@
                 category: "all",
                 image: "images/258.jpg",
                 description: "Premium Puma xl for ultimate style and performance.",
-                price: "ksh 2,700",
+                price: "ksh 3,500",
                 features: [
                     "Available in multiple colors",
                     "Breathable interior",
@@ -380,7 +380,7 @@
                 category: "all",
                 image: "images/259.jpg",
                 description: "Premium Adidas Adizero Evo for ultimate style and performance.",
-                price: "ksh 3,000",
+                price: "ksh 3,700",
                 features: [
                     "Available in multiple colors",
                     "Breathable interior",
@@ -393,7 +393,7 @@
                 category: "all",
                 image: "images/260.jpg",
                 description: "Premium Nike Airforce 1 grey for ultimate style and performance.",
-                price: "ksh 2,700",
+                price: "ksh 3,500",
                 features: [
                     "Available in multiple colors",
                     "Breathable interior",
@@ -406,7 +406,7 @@
                 category: "all",
                 image: "images/261.jpg",
                 description: "Premium Sb dunk maroon white for ultimate style and performance.",
-                price: "ksh 2,500",
+                price: "ksh 3,300",
                 features: [
                     "Available in multiple colors",
                     "Breathable interior",
